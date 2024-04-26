@@ -2,7 +2,7 @@ import sys
 import os
 from torch.utils.data import DataLoader
 
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+# sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from model.dataset import DominoDataset
 
 def test_domino_dataset():
